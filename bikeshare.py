@@ -9,7 +9,7 @@ import time
 #new_york_city = 'new_york_city.csv'
 #washington = 'washington.csv'
 
-def get_city():
+def get_city():      # Return city name
     '''Asks the user for a city and returns the filename for that city's bike share data.
 
     Args:
