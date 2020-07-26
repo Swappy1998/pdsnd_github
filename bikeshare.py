@@ -1,5 +1,5 @@
-import pandas as pd
-import numpy as np
+import pandas as pd     #This library for performing DataFrame Operations.
+import numpy as np      #This library for Performing array operations.
 from datetime import datetime
 from datetime import timedelta
 import time
