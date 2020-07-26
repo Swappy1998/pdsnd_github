@@ -9,7 +9,7 @@ import time
 #new_york_city = 'new_york_city.csv'
 #washington = 'washington.csv'
 
-def get_city():
+def get_city():      # Return city name
     '''Asks the user for a city and returns the filename for that city's bike share data.
 
     Args:
@@ -273,7 +273,7 @@ def display_data(df):
                 break
 
 
-def statistics():
+def statistics(): #Returns city and  time period in Descriptive statistics
     '''Calculates and prints out the descriptive statistics about a city and
     time period specified by the user via raw input.
 
